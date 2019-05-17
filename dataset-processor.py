@@ -60,3 +60,11 @@ plt.ylabel('Alcohol')
 plt.show()
 plt.savefig(f'plots/alcohol_by_index_plot.png', format='png')
 
+#Plotting scatterplot
+
+plt.scatter(wine['Proline'],wine['Acl'], color='b')
+plt.title('Proline to Ash')
+plt.xlabel('Proline')
+plt.ylabel('Ash')
+plt.show()
+plt.savefig(f'plots/proline_by_Ash_plot.png', format='png')
