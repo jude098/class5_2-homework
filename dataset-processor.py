@@ -58,5 +58,5 @@ plt.title('Alcohol by Index')
 plt.xlabel('Index')
 plt.ylabel('Alcohol')
 plt.show()
-
+plt.savefig(f'plots/alcohol_by_index_plot.png', format='png')
 
